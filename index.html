@@ -32,12 +32,6 @@
   z-index: 999;
   box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
-    header.scrolled {
-  background-color: #111;
-  padding: 0.5rem 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-  transition: all 0.3s ease;
-}
     header img {
       height: 80px;
     }
@@ -153,9 +147,6 @@
     <span style="font-size: 16px;">Suivez-nous</span>
   </a>
 </div>
-
-
-
   </nav>
 </header><section id="accueil">
   <div class="hero-content">
@@ -295,10 +286,5 @@
 </p>
 
 </footer>
-<script>
-  window.addEventListener('scroll', function () {
-    const header = document.querySelector('header');
-    header.classList.toggle('scrolled', window.scrollY > 50);
-  });
-</script></body>
+</body>
 </html>
